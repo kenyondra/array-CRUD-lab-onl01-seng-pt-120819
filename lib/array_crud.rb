@@ -7,7 +7,9 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
+  ["apples", "oranges", "pears", "lemons"]
   
+  add_element_to_end_of_array << "kiwi"
 end
 
 def add_element_to_start_of_array(array, element)
